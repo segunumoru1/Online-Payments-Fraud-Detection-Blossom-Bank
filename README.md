@@ -4,14 +4,19 @@ In 2018, fraud cost the world economy £3.2 trillion, according to Infosecurity 
 ## Payment fraud is characterized in three ways:
 
 -Fraudulent or unauthorized transactions
+
 -Lost or stolen merchandise
+
 -False requests for a refund, return or bounced cheques.
+
 Ecommerce businesses rely on electronic transactions to charge customers for products and services. The increased volume of electronic transactions has also resulted in an increase in fraudulent activities.
 
 Our case study, Blossom Bank also known as BB PLC is a multinational financial services group, that offers retail and investment banking, pension management, asset management and payments services, headquartered in London, UK. Blossom Bank wants to build a Machine Learning model to predict online payment fraud. At the end of this project, we should be able to:
 
  -Effectively detect and identify anomalies in the transactions that would normaly be undetected using traditional methods
+ 
  -Improve it's cyber sercurity policies.
+ 
  -Solidify the trust in the platform and amongst their customers by preventing fraudulent transactions.
  
  ## Methodology
@@ -22,18 +27,28 @@ Our case study, Blossom Bank also known as BB PLC is a multinational financial s
  3. Data set for loaded using pd.read_csv("") from the local computer
  4. Identifying the first five columns and the last five columns of the data set using data.head() and data.tail()
  5. Exploraatory Data Analysis
+ 
  - Inspection of Data set: 
+ 
  i. identification of columns
+ 
  ii. Identifiying if there are unique vslues
+ 
  iii. checked if there are missing values and visualizing it using the heatmap
+ 
  iv. identified the shape of the entire data set
+ 
  v. Checked the info of the columns and data types
+ 
  vi. checked the statistical analysis of the data
+ 
  vii. outlier detection
  
  ## Relationship, insights and Visualizations
  -Univariate Analysis techniques was done and visualisation after creating a function that properly labels fraud_trans.
--Bivariate Analysis was done by comparing two categorical variables and its visualization
+ 
+-Bivariate Analysis was done by comparing two categorical variables and its visualization.
+
 -Multivariate Analysis was done with transaction types in relation to transaction amount and fraud status.
 
 ## Peforming Feature Engineering by encoding categorical variables. 
