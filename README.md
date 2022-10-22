@@ -39,7 +39,8 @@ Our case study, Blossom Bank also known as BB PLC is a multinational financial s
 ## Peforming Feature Engineering by encoding categorical variables. 
 This implies that converting useful columns that are categorical into numerical columns so they can be featured or implemented in the machine learning model. The target feature was dropped, which fraud_trans
 
-## Model preparation and deployment. Interpreting the results of the modelling, determining which of the models best fit the data and also realistic in post production and finally recommending business strategies to help the bank avoid losing money to fraud.
+## Model preparation and deployment. 
+Interpreting the results of the modelling, determining which of the models best fit the data and also realistic in post production and finally recommending business strategies to help the bank avoid losing money to fraud.
 
 ## Feature Engineering.
 I observed that some columns would not be processed during the deployment of the models becuse that were categorical hence my decision to convert them to numerical values (encoding). I encoded the type column by creating 5 dummy columns being that there were 5 unique values in the type column. Created a new X train with only 4 features to see how they are able to fit properly on a new data set.
